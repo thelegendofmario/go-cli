@@ -8,9 +8,9 @@ import (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "zero",
-	Short: "zero is a cli tool for math.",
-	Long:  "zero is a cli tool for math - adding, multiplication, subtraction, and division.",
+	Use:   "Zero",
+	Short: "Zero is a cli tool for math.",
+	Long:  "Zero is a cli tool for math - adding, multiplication, subtraction, and division.",
 	Run: func(cmd *cobra.Command, args []string) {
 
 	},
